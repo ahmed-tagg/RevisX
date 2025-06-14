@@ -311,9 +311,19 @@ export default function Home() {
                     Read Latest Issue
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <Button size="lg" variant="outline">
-                    Submit Your Research
-                  </Button>
+                  import { Button } from "@/components/ui/button"
+import Link from "next/link"
+
+<Button asChild className="w-full bg-blue-600 hover:bg-blue-700">
+  <a
+    href="http://reviz.infinityfreeapp.com/ojs"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Submit your research
+  </a>
+</Button>
+
                 </div>
               </div>
               <div className="flex items-center justify-center">
