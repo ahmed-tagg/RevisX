@@ -874,16 +874,19 @@ export default function Home() {
                     Ready to contribute to the scientific community? Our peer review process is rigorous but supportive,
                     especially for early-career researchers.
                   </p>
-                  <a
-  href="http://reviz.infinityfreeapp.com/ojs"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-full"
->
-  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                  import { Button } from "@/components/ui/button"
+import Link from "next/link"
+
+<Button asChild className="w-full bg-blue-600 hover:bg-blue-700">
+  <a
+    href="http://reviz.infinityfreeapp.com/ojs"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     Submit Manuscript
-  </Button>
-</a>
+  </a>
+</Button>
+
 
                 </CardContent>
               </Card>
