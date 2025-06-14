@@ -874,7 +874,17 @@ export default function Home() {
                     Ready to contribute to the scientific community? Our peer review process is rigorous but supportive,
                     especially for early-career researchers.
                   </p>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700">Submit Manuscript</Button>
+                  <a
+  href="http://reviz.infinityfreeapp.com/ojs"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full"
+>
+  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+    Submit Manuscript
+  </Button>
+</a>
+
                 </CardContent>
               </Card>
             </div>
